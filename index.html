@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IRL Approval Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  
+ <div class="top-bar">
+
+    <div class="logo-card">
+
+
+      <button id="logoutBtn">
+ 🔒 Logout
+</button>
+
+    </div>
+
+    <div class="title-section">
+
+      <h1>Under25 IRL</h1>
+
+      <h2>APPROVAL DASHBOARD</h2>
+
+    </div>
+
+    <div class="stats-card">
+
+      <div class="stats-title">
+        Pending Submissions
+      </div>
+
+      <div id="pendingCount" class="stats-count">
+        0
+      </div>
+
+      <div class="stats-updated">
+        Auto Refreshes every 15s
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="table-container">
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Phone Number</th>
+          <th>Reel Link</th>
+          <th>Action</th>
+        </tr>
+
+      </thead>
+
+      <tbody id="tableBody">
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <div class="footer">
+    Under25 IRL Submission Review Dashboard © 2026
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
