@@ -18,6 +18,21 @@ async function sha256(text) {
     .join("");
 }
 
+function formatLink(url) {
+  if (!url) return "#";
+
+  const trimmed = String(url).trim();
+
+  if (
+    trimmed.startsWith("http://") ||
+    trimmed.startsWith("https://")
+  ) {
+    return trimmed;
+  }
+
+  return `https://${trimmed}`;
+}
+
 async function authenticate() {
   const authenticated = sessionStorage.getItem("dashboardAuth");
 
@@ -89,9 +104,9 @@ async function loadSubmissions() {
 
         <td>
           <a
-            href="${item.screenshot || "#"}"
+            href="${formatLink(item.link)}"
             target="_blank"
-            class="screenshot-link"
+            class="reel-link"
           >
             View Reel
           </a>
