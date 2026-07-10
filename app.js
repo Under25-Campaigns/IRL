@@ -104,9 +104,9 @@ async function loadSubmissions() {
 
         <td>
           <a
-            href="${formatLink(item.link)}"
+            href="${formatLink(item.screenshot)}"
             target="_blank"
-            class="reel-link"
+            class="screenshot-link"
           >
             View Reel
           </a>
