@@ -100,7 +100,7 @@ data.forEach((item, index) => {
       target="_blank"
       class="screenshot-button"
     >
-      View Screenshot
+      View Reel
     </a>
 
     <div class="actions">
