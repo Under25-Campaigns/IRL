@@ -1,5 +1,5 @@
 const API_URL =
-"https://script.google.com/macros/s/AKfycbyjwo_nLtqkFIPyE5ekSOEGcYsZt7Jjn6YVqq5LWqFdIFBex-B68NSwigeo7lP_YyHh/exec";
+"https://script.google.com/macros/s/AKfycby7iKu-UWqQPby_0y6HJQHeSiRHjRjvgxKG3vMvHJ1wCKpjlB4-QMTxxuiqaaFha1ch/exec";
 
 const TOKEN =
 "IRL_Dashboard";
